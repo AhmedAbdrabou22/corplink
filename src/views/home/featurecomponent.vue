@@ -72,7 +72,7 @@
 </script>
 
 
-<style>
+<style scoped>
 .feature {
     background-color: #f7f7f7;
 }

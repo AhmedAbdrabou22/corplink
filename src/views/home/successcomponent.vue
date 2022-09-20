@@ -56,7 +56,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .guiding i {
     font-size: 25px;
     margin: auto;
