@@ -83,9 +83,9 @@
     export default{
         data(){
             return{
-
+                images : [],
             }
-        }
+        },
     }
 </script>
 

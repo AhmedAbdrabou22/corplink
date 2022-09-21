@@ -1,18 +1,20 @@
 <template>
   <navbarcomponent/>
   <router-view/>
+  <footercomponent/>
 </template>
 
 
 <script>
   import navbarcomponent from '@/components/navbarcomponent.vue'
+  import footercomponent from '@/components/footercomponent.vue'
   export default{
     data(){
       return{
 
       }
     },
-    components:{navbarcomponent}
+    components:{navbarcomponent , footercomponent}
   }
 </script>
 
