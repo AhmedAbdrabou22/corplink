@@ -1,60 +1,97 @@
 <template>
     <div class="py-5 count">
-    <div class="container s d-flex justify-content-around align-items-center">
-        <div class="text-center a">
-            <span data-counter= "45">0</span>
-            <p>Web Designer</p>
+        <div class="container s asa d-flex justify-content-around align-items-center">
+            <div class="text-center a">
+                <span data-counter="45">0</span>
+                <p>Web Designer</p>
+            </div>
+            <div class="text-center a">
+                <span data-counter="86">0</span>
+                <p>Apps Develop</p>
+            </div>
+            <div class="text-center a">
+                <span data-counter="825">0</span>
+                <p>Happy Clients</p>
+            </div>
+            <div class="text-center a">
+                <span data-counter="1300">0</span>
+                <p>WebSite Designed</p>
+            </div>
         </div>
-        <div class="text-center a">
-            <span data-counter= "86">0</span>
-            <p>Apps Develop</p>
-        </div>
-        <div class="text-center a">
-            <span data-counter= "825">0</span>
-            <p>Happy Clients</p>
-        </div>
-        <div class="text-center a">
-            <span data-counter= "1300">0</span>
-            <p>WebSite Designed</p>
-        </div>
-    </div>
     </div>
 </template>
 
 <script>
-setTimeout(()=>{
-    let counter = document.querySelectorAll('.a span');
-    let count = document.querySelector('.count');
-    if(count.dataset.scroll = "in"){
-        counter.forEach((el)=>{
-            let time = setInterval(()=>{
-                if(Number(el.innerHTML) < el.dataset.counter){
-                    el.innerHTML = Number(el.innerHTML) + 1;
-                }else{
-                    clearInterval(time);
+export default {
+    // setTimeout(()=>{
+    //     let asa = document.querySelector('.asa');
+    //     let goals = document.querySelectorAll('.a span');
+    //     let startFun = false;
+    // window.onscroll = function(){
+    //     if(window.scrollY >= asa.offsetTop){
+    //         if(!startFun){
+    //             goals.forEach((num)=>{start(num)})
+    //         }
+    //         startFun = true; 
+    //     }
+    // }
+    // function start(el){
+    //     let count = el.dataset.counter;
+    //     let goal = setInterval(()=>{
+    //         el.textContent++;
+    //         if(el.textContent == count){
+    //             clearInterval(goal)
+    //         }
+    //     },1)
+    // }
+    // },10)
+    mounted() {
+        let asa = document.querySelector('.asa');
+        let goals = document.querySelectorAll('.a span');
+        let startFun = false;
+        window.onscroll = function () {
+            if (window.scrollY >= asa.offsetTop) {
+                if (!startFun) {
+                    goals.forEach((num) => { start(num) })
                 }
-            },0.000005)
-        })
-    }else{
-        counter.forEach((el)=>{
-            el.innerHTML = 0;
-        });
+                startFun = true;
+            }
+        }
+        function start(el){
+        let count = el.dataset.counter;
+        let goal = setInterval(()=>{
+            el.textContent++;
+            if(el.textContent == count){
+                clearInterval(goal)
+            }
+        },1)
     }
-},10)
+    },
+
+    data() {
+        return {
+
+        }
+    }
+}
+
 </script>
 
+
 <style scoped>
-span{
-    color:#30c39e;
+span {
+    color: #30c39e;
     font-size: 35px;
     font-weight: bold;
 }
-p{
+
+p {
     font-size: 24px;
-    font-weight:500;
+    font-weight: 500;
 }
-@media(max-width:768px){
-    .s{
+
+@media(max-width:768px) {
+    .s {
         flex-direction: column;
     }
 }
