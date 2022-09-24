@@ -146,7 +146,7 @@
 
         <!--goals-->
         <div class="goals">
-            <div class="spef w-50">
+            <div class="speff">
                 <p>CREATIVITY GOALS</p>
                 <h2>We conceive and translate our clients dreams into reality.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore
@@ -270,6 +270,9 @@
     color: white;
     width: 80%;
 }
+.speff{
+    color: white;
+}
 
 .s {
     background-color: white;
@@ -309,14 +312,14 @@
     position: relative;
 }
 
-.goals .spef button:first-child {
+.goals .speff button:first-child {
     background-color: #30c39e;
     padding: 10px 20px;
     margin-right: 10px;
     color: white;
 }
 
-.goals .spef button:last-child {
+.goals .speff button:last-child {
     background-color: white;
     padding: 10px 20px;
     margin-right: 10px;
@@ -377,6 +380,14 @@
     background-size: cover;
     width:100%;
     height:350px;
+}
+.goals .speff .btns{
+    display: flex;
+
+}
+.goals .speff .btns button{
+    padding:5px;
+    font-size: 10px;;
 }
 }
 @media(min-width:768px) , (max-width:992px) {
