@@ -40,14 +40,14 @@
         <div class="develob">
             <div class="container py-4">
                 <div class="row s shadow">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="dev">
                             <div class="spef">
                                 <h1>Meet with us to success dream business</h1>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 py-5 px-4">
+                    <div class="col-lg-6 col-md-12 col-sm-12 py-5 px-4">
                         <div class="design d-flex align-baseline">
                             <div><i class="far fa-edit"></i></div>
                             <div class="mx-3">
@@ -253,6 +253,7 @@
     background-size: cover;
     width: 100%;
     height: 100%;
+    height:80vh;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -370,6 +371,19 @@
 @media(max-width:768px) {
     .s {
         flex-direction: column;
+    }
+    .develob .dev{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/bg.jpg);
+    background-size: cover;
+    width:100%;
+    height:350px;
+}
+}
+@media(min-width:768px) , (max-width:992px) {
+    .develob .dev{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/bg.jpg);
+    background-size: cover;
+    width:100%;
     }
 }
 </style>
