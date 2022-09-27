@@ -14,6 +14,7 @@
                     <router-link :to="{name: 'home'}"><a class="nav-link" aria-current="page" href="#">Home</a>
                     </router-link>
                     <router-link :to="{name: 'about'}"><a class="nav-link" href="#">About</a></router-link>
+                    <router-link :to="{name: 'service'}"><a class="nav-link" href="#">service</a></router-link>
                 </ul>
                 <form class="d-flex justify-content-center align-items-center">
                     <div class="btn">

@@ -225,7 +225,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 #home {
     color: #30c39e;
 }
