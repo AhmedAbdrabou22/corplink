@@ -17,49 +17,49 @@
             <div class="offers mt-5">
                 <div class="container">
                     <div class="row justify-content-around">
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/laptop.png" alt="">
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/mobile1.png" alt="">
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/android.png" alt="">
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/code.png" alt="">
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/iphone.png" alt="">
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/java.png" alt=""/>
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/chain.png" alt="">
                             <p>Web design & development</p>
                         </div>
                     </div>
-                    <div class="col-3 p-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
                         <div class="offersone py-3 d-flex justify-content-center align-items-center">
                             <img src="@/assets/program.png" alt="">
                             <p>Web design & development</p>
